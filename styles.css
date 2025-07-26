@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgba(137, 135, 161, .1);
+    background-color:#f5f8ff;
 }
 nav li a{
     font-size: 1.125rem;
@@ -374,4 +374,44 @@ nav{
     font-size: 3rem;
     font-weight: 700;
     color: white;
+}
+
+
+
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+footer li{
+    list-style: none;
+    margin-bottom: 26px;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer-logo img{
+    margin-bottom: 16px;
+}
+.footer-logo p{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer-links , .footer-links02{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 26px; */
+}
+.footer-socials a{
+    margin-right: 24px;
 }
